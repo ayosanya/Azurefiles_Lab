@@ -1,0 +1,12 @@
+https://eastus.api.cognitive.microsoft.com/
+
+014418f04bf2434ea8ea7fe581651fc9
+
+
+https://eastus.api.cognitive.microsoft.com/
+
+25e448bb8c0b4cf5a10f8b77196c7c33
+
+key
+46F867FEF721D8BDFD530A42A8F7FC40
+

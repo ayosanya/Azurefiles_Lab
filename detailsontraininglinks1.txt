@@ -1,0 +1,325 @@
+
+
+https://www.microsoftazurepass.com/
+
+[8:56 AM] Sandeep Kumar (Guest)
+    hi
+?[8:57 AM] Sandeep Kumar (Guest)
+    can you hear me Ayodeji?
+?[9:17 AM] Sandeep Kumar (Guest)
+    
+https://www.microsoftazurepass.com/
+?[9:19 AM] Sandeep Kumar (Guest)
+    
+QY6D5BWW73PDWNHZUY
+
+https://www.skillpipe.com/
+
+https://docs.microsoft.com/en-gb/azure/security-center/security-center-just-in-time?tabs=jit-config-api%2Cjit-request-api
+
+https://docs.microsoft.com/en-gb/azure/security-center/security-center-just-in-time?tabs=jit-config-api%2Cjit-request-api
+
+https://theghl.in/Course/3963
+https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines/v1_9/
+https://github.com/mspnp/microservices-reference-implementation
+
+https://www.koenig-solutions.com/account/login
+
+POWERSHELL ENABLE FEATURE FOR IIS
+# install IIS server role
+  Install-WindowsFeature -name Web-Server -IncludeManagementTools
+
+ 
+
+# remove default htm file
+  remove-item  C:\inetpub\wwwroot\iisstart.htm
+
+ 
+
+# Add a new htm file that displays server name
+  Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("Hello World from " + $env:computername)
+
+https://docs.microsoft.com/en-us/azure/cosmos-db/create-cosmosdb-resources-portal
+
+https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?tabs=azure-portal
+https://docs.microsoft.com/en-us/azure/azure-sql/database/quickstart-content-reference-guide
+
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal
+
+https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal
+
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview
+
+https://docs.microsoft.com/en-us/azure/logic-apps/quickstart-create-first-logic-app-workflow
+
+https://docs.microsoft.com/en-us/azure/event-grid/blob-event-quickstart-portal
+
+https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-overview
+
+https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-1-create-load-balancer-standard
+https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-1-create-load-balancer-standard
+
+https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal
+https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal
+
+
+https://docs.microsoft.com/en-us/azure/active-directory/hybrid/tutorial-phs-backup
+
+https://docs.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile
+
+https://azure.microsoft.com/en-gb/pricing/details/storsimple/
+
+https://azure.microsoft.com/en-gb/pricing/details/storsimple/
+
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/
+https://docs.microsoft.com/en-gb/rest/api/resources/
+https://github.com/Azure/azure-quickstart-templates
+https://github.com/Azure/azure-quickstart-templates/tree/master/sharepoint-server-farm-ha
+https://github.com/Azure/azure-quickstart-templates/blob/master/101-vm-simple-rhel/azuredeploy.json
+
+http://go.microsoft.com/fwlink/?LinkID=525523
+
+https://docs.microsoft.com/en-us/archive/msdn-magazine/2017/connect/vsts-the-road-to-continuous-delivery-with-visual-studio-team-services
+
+https://docs.microsoft.com/en-us/azure/devops-project/azure-devops-project-github
+
+https://docs.microsoft.com/en-us/azure/devops-project/azure-devops-project-github
+
+https://docs.microsoft.com/en-gb/azure/?product=identity
+
+https://docs.microsoft.com/en-gb/azure/?product=featured
+
+https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign
+https://docs.microsoft.com/en-gb/azure/architecture/patterns/valet-key
+https://docs.microsoft.com/en-gb/azure/?product=identity
+https://github.com/Azure/azure-quickstart-templates
+https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-1-create-load-balancer-standard
+https://docs.microsoft.com/en-us/azure/devops-project/azure-devops-project-github
+https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign/tree/master/allfiles/AZ-301T04/Module_03/Labfiles/Starter
+
+
+$resourceGroupName = Read-Host -Prompt "Enter the Resource Group name"
+$location = Read-Host -Prompt "Enter the location (i.e. centralus)"
+
+New-AzResourceGroup -Name $resourceGroupName -Location $location
+New-AzResourceGroupDeployment -Name ExampleDeployment `
+  -ResourceGroupName $resourceGroupName `
+  -TemplateFile c:\MyTemplates\azuredeploy.json
+
+New-AzResourceGroup -Name $resourceGroupName -Location $location
+New-AzResourceGroupDeployment -Name ExampleDeployment `
+  -ResourceGroupName $resourceGroupName `
+  -TemplateFile https://github.com/Azure/azure-quickstart-templates/blob/master/101-vm-simple-rhel/azuredeploy.json
+
+New-AzResourceGroup -Name RG1 -Location East US
+New-AzResourceGroupDeployment -Name ExampleDeployment `
+  -ResourceGroupName $resourceGroupName `
+  -TemplateFile https://github.com/Azure/azure-quickstart-templates/blob/master/101-vm-simple-rhel/azuredeploy.json
+
+
+$resourceGroupName = Read-Host -Prompt "Enter the Resource Group name"
+$location = Read-Host -Prompt "Enter the location (i.e. centralus)"
+
+New-AzResourceGroup -Name $resourceGroupName -Location $location
+New-AzResourceGroupDeployment -Name ExampleDeployment `
+  -ResourceGroupName $resourceGroupName `
+  -TemplateFile c:\MyTemplates\azuredeploy.json
+
+New-AzResourceGroup -Name $resourceGroupName -Location $location
+New-AzResourceGroupDeployment -Name ExampleDeployment `
+  -ResourceGroupName $resourceGroupName `
+  -TemplateFile https://github.com/Azure/azure-quickstart-templates/blob/master/101-vm-simple-rhel/azuredeploy.json
+
+New-AzResourceGroup -Name RG1 -Location EastUs
+New-AzResourceGroupDeployment -Name ExampleDeployment `
+  -ResourceGroupName $resourceGroupName `
+  -TemplateFile https://github.com/Azure/azure-quickstart-templates/blob/master/101-vm-simple-rhel/azuredeploy.json
+
+New-AzResourceGroup -Name RG1 -Location EastUs
+New-AzResourceGroupDeployment -Name ExampleDeployment `
+  -ResourceGroupName RG1 `
+  -TemplateFile G:\desktop\AZURE EXAMS\https_github.com_Azur_azure-quickstart-templates_blob_master_101-vm-simple-rhel_azuredeploy.json
+
+New-AzResourceGroup -Name RG1 -Location EastUs
+New-AzResourceGroupDeployment -Name ExampleDeployment `
+  -ResourceGroupName RG1 `
+  -TemplateFile https://github.com/Azure/azure-quickstart-templates/blob/master/101-vm-simple-rhel/azuredeploy.json
+
+New-AzResourceGroup -Name RG1 -Location EastUs
+New-AzResourceGroupDeployment -Name ExampleDeployment `
+  -ResourceGroupName RG1 `
+  -TemplateUri https://github.com/Azure/azure-quickstart-templates/blob/master/101-vm-simple-rhel/azuredeploy.json
+
+New-AzResourceGroup -Name RG1 -Location EastUs
+New-AzResourceGroupDeployment -Name ExampleDeployment `
+  -ResourceGroupName RG1 `
+  -TemplateUri https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-storage-account-create/azuredeploy.json
+
+New-AzureRmRoleDefinition -InputFile "C:\CustomRole\newrole1.json"
+
+New-AzureRmRoleDefinition -InputFile "G:\desktop\AZURE EXAMS\role.json"
+
+New-AzureRmRoleDefinition -InputFile "/home/ayodeji/role2.json"
+
+
+https://csb10032000db780195.blob.core.windows.net/testconta/role.json
+
+
+New-AzureRmRoleDefinition -InputFile "https://csb10032000db780195.blob.core.windows.net/testconta/role.json"
+
+
+--TemplateUri https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-storage-account-create/azuredeploy.json
+
+New-AzureRmRoleDefinition "Name": "NewRole" "IsCustom": "True" "Description": "allow access to Azure Storage and compute resorces" "Actions": [Microsoft.Comp
+ute/*/read", Microsoft.Storage/*/read"],"AssignableScopes":[/subscriptions/557fc50-c966-4eb6-8852-2caedcd0915b]"
+
+
+http://52.149.213.9/
+
+https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-1-create-load-balancer-standard
+
+az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
+
+az aks get-credentials --resource-group MC_RG1_kubercontainer_eastus --name myAKSCluster
+
+az aks get-credentials --resource-group RG1 --name kubercontainer-dns-a266fe14.hcp.eastus.azmk8s.io
+
+az aks get-credentials --resource-group RG1 --name kubercontainer
+
+kubectl get nodes
+
+ayodeji@Azure:~$ kubectl get nodes
+NAME                                STATUS   ROLES   AGE   VERSION
+aks-agentpool-39396562-vmss000000   Ready    agent   16m   v1.16.13
+aks-agentpool-39396562-vmss000001   Ready    agent   16m   v1.16.13
+aks-agentpool-39396562-vmss000002   Ready    agent   16m   v1.16.13
+aks-agentpool-39396562-vmss000003   Ready    agent   16m   v1.16.13
+aks-agentpool-39396562-vmss000004   Ready    agent   16m   v1.16.13
+ayodeji@Azure:~$
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: azure-vote-back
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: azure-vote-back
+  template:
+    metadata:
+      labels:
+        app: azure-vote-back
+    spec:
+      nodeSelector:
+        "beta.kubernetes.io/os": linux
+      containers:
+      - name: azure-vote-back
+        image: redis
+        resources:
+          requests:
+            cpu: 100m
+            memory: 128Mi
+          limits:
+            cpu: 250m
+            memory: 256Mi
+        ports:
+        - containerPort: 6379
+          name: redis
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: azure-vote-back
+spec:
+  ports:
+  - port: 6379
+  selector:
+    app: azure-vote-back
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: azure-vote-front
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: azure-vote-front
+  template:
+    metadata:
+      labels:
+        app: azure-vote-front
+    spec:
+      nodeSelector:
+        "beta.kubernetes.io/os": linux
+      containers:
+      - name: azure-vote-front
+        image: microsoft/azure-vote-front:v1
+        resources:
+          requests:
+            cpu: 100m
+            memory: 128Mi
+          limits:
+            cpu: 250m
+            memory: 256Mi
+        ports:
+        - containerPort: 80
+        env:
+        - name: REDIS
+          value: "azure-vote-back"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: azure-vote-front
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: azure-vote-front
+
+
+Console
+
+Copy
+kubectl apply -f azure-vote.yaml
+The following example output shows the Deployments and Services created successfully:
+
+Output
+
+Copy
+deployment "azure-vote-back" created
+service "azure-vote-back" created
+deployment "azure-vote-front" created
+service "azure-vote-front" created
+
+kubectl get service azure-vote-front --watch
+
+NAME               TYPE           CLUSTER-IP   EXTERNAL-IP   PORT(S)        AGE
+azure-vote-front   LoadBalancer   10.0.37.27   <pending>     80:30572/TCP   6s
+
+ayodeji@Azure:~$ kubectl get service azure-vote-front --watch
+NAME               TYPE           CLUSTER-IP   EXTERNAL-IP      PORT(S)        AGE
+azure-vote-front   LoadBalancer   10.0.99.19   52.151.232.247   80:31040/TCP   3m14s
+
+https://github.com/Azure-Samples/azure-voting-app-redis
+
+
+
+https://www.microsoftazurepass.com/
+
+[8:56 AM] Sandeep Kumar (Guest)
+    hi
+?[8:57 AM] Sandeep Kumar (Guest)
+    can you hear me Ayodeji?
+?[9:17 AM] Sandeep Kumar (Guest)
+    
+https://www.microsoftazurepass.com/
+?[9:19 AM] Sandeep Kumar (Guest)
+    
+QY6D5BWW73PDWNHZUY
+
+https://www.skillpipe.com/
+

@@ -1,0 +1,16 @@
+{
+  "Name": "New Role 1",
+  "Id": null,
+  "IsCustom": true,
+  "Description": "Allows for read access to Azure storage and compute resources",
+  "Actions": [
+    "Microsoft.Compute/*/read",
+    "Microsoft.Storage/*/read",
+   
+  ],
+  "NotActions": [
+  ],
+  "AssignableScopes": [
+    "/subscriptions/c489345-9cd4-44c9-99a7-4gh6575315336g"
+ ]
+}

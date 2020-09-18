@@ -1,0 +1,53 @@
+{
+  "Name": "New Role 1",
+  "Id": null,
+  "IsCustom": true,
+  "Description": "Allows for read access to Azure storage and compute resources",
+  "Actions": [
+    "Microsoft.Compute/*/read",
+    "Microsoft.Storage/*/read",
+   
+  ],
+  "NotActions": [
+  ],
+  "AssignableScopes": [
+    "/subscriptions/557fcf50-c966-4eb6-8852-2caedcd0915b"
+ ]
+}
+  Azure Storage and compute resd, "Mic
+
+
+[
+  {
+    "assignableScopes": [
+      "/subscriptions/557fcf50-c966-4eb6-8852-2caedcd0915b",
+            "/providers/Microsoft.Management/managementGroups/cloud-shell-storage-westeurope"
+    ],
+    "description": "Can monitor and restart virtual machines.",
+    "id": "/subscriptions/557fcf50-c966-4eb6-8852-2caedcd0915b/providers/Microsoft.Authorization/roleDefinitions/88888888-8888-8888-8888-888888888888",
+    "name": "88888888-8888-8888-8888-888888888888",
+    "permissions": [
+      {
+        "actions": [
+          "Microsoft.Storage/*/read",
+          "Microsoft.Network/*/read",
+          "Microsoft.Compute/*/read",
+          "Microsoft.Compute/virtualMachines/start/action",
+          "Microsoft.Compute/virtualMachines/restart/action",
+          "Microsoft.Authorization/*/read",
+          "Microsoft.ResourceHealth/availabilityStatuses/read",
+          "Microsoft.Resources/subscriptions/resourceGroups/read",
+          "Microsoft.Insights/alertRules/*",
+          "Microsoft.Insights/diagnosticSettings/*",
+          "Microsoft.Support/*"
+        ],
+        "dataActions": [],
+        "notActions": [],
+        "notDataActions": []
+      }
+    ],
+    "roleName": "Virtual Machine Operator",
+    "roleType": "CustomRole",
+    "type": "Microsoft.Authorization/roleDefinitions"
+  }
+]

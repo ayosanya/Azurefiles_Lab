@@ -1,0 +1,23 @@
+az group list --query "[?starts_with(name,'AADesignLab03')]".name --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes' 
+
+AADesignLab0302-RG
+az group list --query "[?starts_with(name,'AADesignLab0302-RG')]".name --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes' 
+
+az group list --query "[?starts_with(name,'AADesignLab0303-RG')]".name --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes' 
+
+az group list --query "[?starts_with(name,'NetworkWatcherRG')]".name --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes' 
+
+az group list --query "[?starts_with(name,'RG1')]".name --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes' 
+
+az group list --query "[?starts_with(name,'RG4')]".name --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes' 
+
+DefaultResourceGroup-EUS
+az group list --query "[?starts_with(name,'DefaultResourceGroup-EUS')]".name --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes' 
+
+az group list --query "[?starts_with(name,'AADesignLab0901-RG')]".name --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes' 
+
+az group list --query "[?starts_with(name,'RG1')]".name --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes'
+
+10.0.1.4
+
+10.0.2.4
